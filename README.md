@@ -2,9 +2,9 @@
 
 ### Big Picture
 
-This is a project for Udacity's front-end nanodegree to design a landing page using HTML, CSS and JavaScript. The landing page is using Javascript for dynamically updating the navigational menu based on the amount of content that is added to the page.
+This is a project for Udacity's front-end nanodegree to design a landing page using HTML, CSS and JavaScript. The page is using Javascript for dynamically updating the navigational menu based on the amount of content that is added to the page.
 
-To get start using the project right away:
+#### To get start using the project right away:
 
 Simply clone this repo and run `index.html` file on your browser.
 
