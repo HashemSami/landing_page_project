@@ -1,10 +1,18 @@
 # Landing Page Project
 
-### Big Picture
+This is a project for Udacity's front-end nanodegree to design a landing page using HTML, CSS and JavaScript.
 
-This is a project for Udacity's front-end nanodegree to design a landing page using HTML, CSS and JavaScript. The page is using Javascript for dynamically updating the navigational menu based on the amount of content that is added to the page.
+### Generel info
 
-#### To get start using the project right away:
+Simple landing page that uses Javascript for dynamically updating the navigational menu based on the amount of content that is added to the page.
+
+### Technologies
+
+- HTML
+- CSS
+- Javascript
+
+### Setup:
 
 Simply clone this repo and run `index.html` file on your browser.
 

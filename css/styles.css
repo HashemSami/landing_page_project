@@ -66,6 +66,7 @@ section {
   margin: 0;
   text-align: right;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: start;
   font-size: large;
@@ -80,11 +81,6 @@ section {
 
 .navbar__menu li.active {
   background-color: rgb(69, 189, 69);
-}
-
-.navbar__menu li:hover {
-  background-color: #ddd;
-  color: black;
 }
 
 .navbar__menu .menu__link {

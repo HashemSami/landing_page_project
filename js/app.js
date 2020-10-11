@@ -22,7 +22,9 @@ const state = {
 // building the nav bar and events
 const startNav = () => {
   buildSections();
+
   buildNav();
+
   state.sections.forEach(item => {
     addEvents(`#${item.sectionId}`, `#${item.navLink}`);
   });
@@ -76,6 +78,7 @@ const activateIfOnTop = (el, navItem) => {
 // build sections and nav list in global variables
 const buildSections = () => {
   const sectionsList = document.querySelectorAll("section");
+
   sectionsList.forEach((item, i) => {
     state.sections.push({
       sectionId: item.id,
@@ -98,11 +101,11 @@ const buildNav = () => {
 
 // add click events
 const addCLickEventToNavItems = (navElement, sectionElement) => {
-  const targetPosition = sectionElement.getBoundingClientRect().top;
-  const startPosition = window.pageYOffset;
-  const distance = startPosition + targetPosition;
-
   const scrollToFunction = () => {
+    const targetPosition = sectionElement.getBoundingClientRect().top;
+    const startPosition = window.pageYOffset;
+    const distance = startPosition + targetPosition - 80;
+
     window.scrollTo({
       top: distance,
       left: 0,
